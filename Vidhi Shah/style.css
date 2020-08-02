@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.col{
+  box-shadow: 5px 10px 8px grey;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nav1{
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 0;
+  float: right;
+  width: 30%;
+}
+.nav1 img{
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+.nav2{
+  margin-bottom: 10px;
+  width: 100%;
+  float: left;
+}
+.h1{
+  box-sizing: border-box;
+  float: left;
+  width: 70%;
+  padding: 10px;
+}
+.h1 h1{
+  font-size: 35px;
+  text-align: center;
+}
+.h1 h2{
+  text-align: center;
+  font-size: 33px;
+}
+.ul li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.ul li{
+  margin-bottom: 15px;
+  list-style: none;
+  font-size: 25px;
+}
+.ul{
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.ul li a:hover{
+  color: whitesmoke;
+  background-color: black;
+}
+.all{
+  box-shadow: 5px 10px 8px grey;
+  box-sizing: border-box;
+  font-size: 23px;
+  float: left;
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  background-color: 
+  whitesmoke;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.zest{
+  box-shadow: 5px 10px 8px grey;
+  border: 1px solid black;
+  border-radius: 15px;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+.head{
+  float: left;
+  width: 100%;
+}
+.z1{
+  float: left;
+  width: 70%;
+  text-align: center;
+}
+.img1{
+  float: right;
+  width: 30%;
+  text-align: center;
+}
+.img1 img{
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+.z1 h2{
+  font-size: 50px;
+  line-height: 100px;
+}
+.para{
+  float: left;
+  margin-top: 25px;
+}
+.para p{
+  font-size: 23px;
+}
+.z2{
+  float: left;
+  width: 100%;
+}
+.z2 h2{
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+.zest:hover{
+  background-color: cornsilk;
+}
+.all:hover{
+  background-color: cornsilk;
+}
+@media only screen and (max-width:900px){
+  .con{
+    width: 100%;
+  }
+  .all{
+    width: 100%;
+  }
+  .zest{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:7500px){
+  .z1{
+    width: 100%;
+  }
+  .img1 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:7500px){
+  .z2 h2{
+    line-height: 60px;
+  }
+}
